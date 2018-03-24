@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+android:layout_margin="5dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have already registered for this LuckDraw event!!"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:id="@+id/main1"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:id="@+id/t1"
+        android:text="No need to register for another time as you already have registerd.. \n If you are facing any other problem contact IT coordinator."
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+</LinearLayout>

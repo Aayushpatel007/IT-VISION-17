@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.patel.aayush.vision.CheckRegStatus.CheckRegistation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0097a7"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_formsstatus" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Check Registration Status"
+                    android:textAlignment="center"
+                    android:id="@+id/main1"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Participation Receipt Here."
+                android:textAlignment="center"
+                android:id="@+id/t1"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/t2"
+                android:text="Participants in VISON-2017 for the events of IT department can get registration receipt using their Enrolnment no or College ID no:"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/edittetinputlayoutn"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+        android:id="@+id/nameedid"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="20sp"
+                android:textColorHint="@color/colorPrimary"
+                android:drawableLeft="@drawable/user"
+                android:hint="Enter Cllg Id/Enrolnment No:" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Check Status"
+                android:id="@+id/checkbuttonid"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/edittetinputlayoutn"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note And Instruction:"
+                android:textSize="20sp"
+                android:id="@+id/main2"
+                android:textColor="@color/colorPrimary"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+android:id="@+id/t3"
+                android:textColor="@android:color/background_dark"
+                android:text="1.Students registered for IT department events in VISION-2017 can only check status and get receipt. \n2.After registration you will be able to see receipt within 24 hours here. \n3.For any Queries you can contact any IT department promotion Volenteer ."
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Opps! \n No Entry or result Found "
+    android:textAlignment="center"
+    android:background="@color/colorPrimary"
+
+    android:textColor="@android:color/background_light"
+    android:textSize="25sp"
+    android:textStyle="italic"
+    android:padding="10dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have still not taken part in any of the events of IT department \n To see Registration status take part .\n If taken part wait for 24 hours we will update it soon."
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Cancel"
+        android:id="@+id/cancelbutton"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/checkstatus"
+        android:icon="@drawable/newform"
+        android:title="@string/registration_n_status" />
+
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/group"
+        android:title="Team IT" />
+
+    <item
+        android:id="@+id/query"
+        android:icon="@drawable/qmarknew"
+        android:title="Query?" />
+
+</menu>

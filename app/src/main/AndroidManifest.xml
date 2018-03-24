@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.patel.aayush.vision">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="IT Vision 17"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/finalmainlogovision" />
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/cardview_light_background" />
+
+        <service android:name=".notification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".notification.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Introslides"
+            android:noHistory="true"/>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tech.TechEvent"
+            android:noHistory="true"
+            android:label="Technical Events" />
+        <activity
+            android:name=".Nontech.Nontech"
+            android:noHistory="true"
+            android:label="Non-Technical Events" />
+        <activity
+            android:name=".UserInfo"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckRegStatus.CheckRegistation"
+            android:label="Registration Status" />
+        <activity
+            android:name=".CheckRegStatus.DetailsReg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tech.TechEventsDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Trial" />
+        <activity
+            android:name=".Aboutus.Teamit"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".workshops.Workshops"
+            android:noHistory="true"
+            android:label="Workshops"></activity>
+        <activity android:name=".workshops.WorkshopDetail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

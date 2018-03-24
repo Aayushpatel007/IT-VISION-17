@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Vision</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Get Registration Status</string>
+    <string name="desc_slide1">SVIT students participated in IT department Events can check online Registration Status .</string>
+    <string name="title_slide2">Live Notifications</string>
+    <string name="desc_slide2">Get LIVE notification of all activities on your device held during VISION-2017.</string>
+    <string name="title_slide3">Luck Draw !!</string>
+    <string name="desc_slide3">Students once registered through this app will be eligible for Luck Draw competition organized by IT department.</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    ///enigma
+    <string name="enigmaname">Enigma</string>
+    <string name="enigmaprice">40</string>
+    <string name="enigmacontact">8866495525</string>
+    <string name="enigmacontactname">Dhruvish Mehta</string>
+    <string name="enigmadesc">If speed comes naturally to you and if you seek thrill in do-or-die situations, we invite you to take part in the ultimate battles through exciting problems.</string>
+    <string name="enigmatagline">Plan.Solve.Escape</string>
+    <string name="enigmaround1">Here you have to solve maximum questions on computer in short amount of time.</string>
+    <string name="enigmaround2">Here you supposed to give the answer of questions and get the clues of the second stage, and finally by crack the questions and getting all the clues at last you can go out from the room.</string>
+    <string name="enigmaround3">Here you solve the basic C programming and find the error. The twist is that you have only few second to solve the query after every that time you are supposed to change your computer. By following these steps, the candidates who give perfect output of maximum numbers of program without any error he/she will be winner.</string>
+    <string name="enigmarules">1.There will be three rounds in the game.\n2.	Participants are not allowed to use cell phone during the event.\n3.	The decisions made by the event head will be final and binding.\n4.	Any violation of the rules will result in disqualification.\n5.	Basic Knowledge of C is required for the third round.</string>
+    <string name="enigmajc">1.The top group of people getting maximum question right in the given amount of time will be selected for the round 2.The group that solves all the clues in the least amount of time will be selected for the next round.3.The person that brings the maximum number of correct outputs in the given time will be declared winner.</string>
+    ///vp
+    <string name="vpname">Virtual Placement</string>
+    <string name="vpcontact">7574832178</string>
+    <string name="vpcontactname">Sachin Devdhar</string>
+
+    <string name="vpprice">50</string>
+    <string name="vpdesc">This event gives you a real life experience of job interviews and fundamentals about placements.</string>
+    <string name="vptagline">Ace Your Interview</string>
+    <string name="vpround1">Aptitude test: Candidates will be tested on the basis of their logic and reasoning skills and basic aptitude.</string>
+    <string name="vpround2">Candidates will have to discuss about a certain topic in a group.</string>
+    <string name="vpround3">Faculties will conduct personal interviews of the selected candidates.</string>
+    <string name="vprules">1)Resume is compulsory for the candidates appearing for personal interview.\n2)Decision taken by Faculties and coordinators is final.</string>
+    <string name="vpjc">1) Certain marks will be allotted for each right answer in round \n2. No negative marking will be done.\n3)For 2nd and 3rd round, candidates will be judged on the basis of their speaking skills, body language, confidence, approach towards the topic and content.</string>
+    ///ingenioustreasure
+    <string name="itname">I.T. – Ingenious treasure</string>
+    <string name="itdesc">"Imagination is more important than knowledge. For knowledge is limited whereas imagination embraces the entire world "- Albert Einstein. \n Push your brains accelerator and get a chance to show off your skills.</string>
+    <string name="ittagline">“Innovation is our Tradition”</string>
+    <string name="itround1">Aptitude Based Test \n Questions are based on general knowledge. It will be projected on-screen and every question with an interval of few seconds. Participants will qualify for the next based on marks.</string>
+    <string name="itround2"> Treasure Hunt \n It will be a Group Event. Riddles will be given in a QR code which when solved will give the next place to go. Time Limit will be the constraint. Groups will be made on the spot. The team which collects all the clues with least time wins this round.</string>
+    <string name="itround3">Surprise Round</string>
+    <string name="itprice">40</string>
+    <string name="itcontact">9099978751</string>
+    <string name="itcontactname">Kevin Patel</string>
+
+    <string name="itrules">1.Decision taken by coordinators is final.\n 2.Participants are not allowed to use cell phone during the event.</string>
+    <string name="itjc">1.Those participants who get higher marks will proceed to next round./n 2.The group that solves all the riddles in the least amount of time will be selected for the next round.</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="registration_n_status">Check status</string>
+
+
+    <string name="aboutvision">Vision is the most awaited annual techfest for every building engineer in SVIT.Vision is a prism,where college students finds an array of events and activities to participate and get valuable recognition.This time vision 2k17 is coming up with more exberant experience like never before. </string>
+    <string name="aboutit">IT department appreciates creativity ,and innovation every year. So this year the innovative team of IT vision has not only focused only on particular field but also worked on exploring engineering as well as intrapersonal skills. The events are design on making participants more ambidexous. First time in the vision IT department is bringing practical workshops of Ethical Hacking and Animation/Vfx by highly reputed personalities. Students will learn ,implement and explore the wide area of enginnering.</string>
+
+    ///nontch
+    <string name="n1name">Cine Vista</string>
+    <string name="n1tagline">Lights, Camera, Action.</string>
+    <string name="n1aboutevent">This is the most exciting event for the students who have their interest in Bollywood and Movies.  This event is based on Acting skills and Bollywood knowledge. The Winner as well as Participants of this event will get an ISTE Certificate.</string>
+    <string name="n1aprice">40</string>
+    <string name="n1contact">8238431186</string>
+    <string name="n1contactname">Jigar Rabadiya</string>
+    <string name="n1round1">This round is based on Movies knowledge. Participants will be shown a Merged video of different Movies containing dialogues, comedy scenes ,etc .On the basis of that video a quiz will be conducted in which question will be asked. Participant have to good enough with their presence of mind.</string>
+    <string name="n1round2">The second round tests the participants acting skills. The participants have to create their act using application Dubsmash or Musical.ly. That act should be creative and entertaining.</string>
+    <string name="n1round3">The final round tests the presence of mind as well as the acting skills of the participants. Participants have to perform some piece of acting as well as have to be creative enough to win the task. The winner will showcase the finest set of both.</string>
+    <string name="n1rules">1.Participants must be on time. \n 2.Vulgar and unruly behavior will not be tolerated. \n 3.Tasks must be completed within the given time limits.</string>
+    <string name="n1jc">They will be judged on acting skills and Bollywood knowledge in all three rounds.</string>
+
+    <string name="n2name">BIZ-BAZAAR</string>
+    <string name="n2tagline">Media, Money, Marketing.</string>
+    <string name="n2price">40</string>
+    <string name="n2contact">9510011050</string>
+    <string name="n2contactname">Kishan Patel</string>
+
+    <string name="n2aboutevent">This event is based on Business strategy and Marketing techniques. This event will help you to polish your Promotion as well as Selling skills. It will also give you the experience of Field work in Marketing Area. The Winner as well as Participants of this event will get an ISTE Certificate</string>
+    <string name="n2round1">The Excitement of this even will start form Mind Game. Here one slide show will be shown to the participants and regarding to that slideshow questions will be asked. It will be pen-paper based task.</string>
+    <string name="n2round2">In second round a kit will be provided to the participants. The participants have to sell the items provided in that kit with maximum profit. This round evaluates the convincing and bargaining skills of the participants.</string>
+    <string name="n2round3">Surprise Round (Hint :- Live Marketing)</string>
+    <string name="n2rules">1.Participants must be on time. \n 2.Vulgar and unruly behavior will not be tolerated. \n 3.Elimination is based on judging criteria.</string>
+    <string name="n2jc">Round 1 : Participants will be eliminated based on their marks. \n Round 2 : Participants will be judged based on their selling, convincing skills and maximum profit earned. \n Round 3 : The Participant with the best marketing skill will be declared as the winner.</string>
+
+    <string name="n3name">BAT2WIN</string>
+    <string name="n3tagline">Apni Gully…Apna Cricket.</string>
+    <string name="n3aboutevent">This is the most Exciting Event in which you just have to play Cricket but the twist in this event is that some rules will be set according to the Gully which has to be follow by the participants. There will be limited Overs. There will be a Knock-out rounds.</string>
+    <string name="n3price">50</string>
+    <string name="n3contact">9624208345</string>
+    <string name="n3contactname">Parth Purohit</string>
+
+    <string name="n3round1">-</string>
+    <string name="n3round2">-</string>
+    <string name="n3round3">-</string>
+    <string name="n3rules">-</string>
+    <string name="n3jc">1.A Team should be of 5 Members only. \n  2.One girl is mandatory in a Team. \n 3.Participants must be on time. \n 4.Vulgar and unruly behavior will not be tolerated. \n 5.Elimination is based on the knock-out matches. </string>
+    /////
+    <string name="w1name">MAAC Animation</string>
+    <string name="w1price">80</string>
+    <string name="w1content"> 1.Introduction to the Industry and its Various Fields. \n 2.Industry Demands and Global Market. \n 3.Process and Pipeline of Animation and VFX \n 4.Animation and VFX Workshop Practical \n 5.Introduction to 3D Animation. \n 6.3Ds Max- 3D Modeling (Practical) \n 7.3Ds Max- Texturing (Practical) \n 8.	3Ds Max- Lighting (Practical) \n 9.	3Ds Max- Rigging and Animation (Practical) \n 10.	3Ds Max- Rendering (Practical) \n 11.	Camera Angles and Photography with green Screen. \n 12.	Green screen Removal, Roto and BG Changing.</string>
+    <string name="w1about">About MAAC Animation:</string>
+    <string name="w1aboutinfo">MAAC is India’s Leading and One and Only Professional Platform with a Strong Bollywood and Hollywood PRODUCTION BACK-UP for Leading Channels. \n Maya Academy of Advanced Cinematics (MAAC) Challenges the outdated and believes in the Creation of new and Fascinating, Larger than Life, World of Media and Entertainment.With the ever-growing Media and Entertainment Industry with arms that encompass Animation,VFX,Broadcasting, innovative media like Augmented reality and Virtual Reality. To create world-class talent in order to take the industry ahead, MAAC has honed itself to be India’s Premium Media and Entertainment Education Institute. \n All the courses are Tailor-made to suit the demands of the rising global market. \n  All MAAC Courses are tailored and Powered by International VFX and Animation Council, Aptech, FICCI, NASSCOM, Media and Entertainment Skill Council (MESC).A largest present of Autodesk (Canada) Authorized ATCs in India.</string>
+
+    <string name="w2name">Ethical Hacking</string>
+    <string name="w2price">100</string>
+    <string name="w2content"> 1.How to secure your Email accounts ( Gmail , company email ) \n 2.How to secure your Social networking accounts \n 3.How to know/investigate if someone has hacked your Computer. \n 4.How to secure your Company data. \n 5.Mobile Hacking and security ( Live mobile hacking demos )  \n 6.How to detect key loggers , malwares or Trojan in PC \n 7.Net banking security tips \n 8.How to detect Phishing attacks \n  9.Data recovery \n 10.Cyber Warfare  \n 11.Office network security \n 12.Backups: Mobile, Email accounts  \n 13.How to secure your WI-FI  \n 14.Creating Virtual Machines (for safer netbanking)  \n 15.How to securely use Drop box and Google drive \n 16.Basic guidance on cyber crime incident handling \n 17.How to file cyber complains and preserve evidence. \n 18.Any other topics if time permits</string>
+    <string name="w2about">Faculty Profile:</string>
+    <string name="w2aboutinfo">Sachin Dedhia is an independent Cyber Crime Investigator and also a Certified Ethical Hacker (EC-Council,USA). Since many years he is working as a Cyber Crime Investigator and also as a security expert for IT companies, Govt depts., Corporate’s and even individuals. He has also provided trainings to Navi Mumbai cyber cell department and also assists the Cyber Cell Departments of Mumbai Police with respect to their queries.Since past few years, he has been successfully conducting various seminars and workshopsacross numerous Schools, covered almost all the Colleges in Mumbai, Mumbai University, various chartered accountants study circle meeting, Rotary clubs,hostipals and even Govt depts.</string>
+
+
+</resources>
